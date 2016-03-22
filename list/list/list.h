@@ -59,7 +59,7 @@ public:
 		}
 
 	};
-	int getsize() {
+	int getSize() {
 		return size;
 	};
 };

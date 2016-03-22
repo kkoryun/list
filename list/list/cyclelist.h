@@ -4,7 +4,6 @@ class cyclelist : public dinlist
 {
 public:
 	cyclelist() {
-     
 		first->SetNext = first;
 	}
 };

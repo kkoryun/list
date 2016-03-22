@@ -21,7 +21,6 @@ public:
 	void SetMem(int value) { mem = value; };
 	link * GetNext() { return next; }
 	void   SetNext(link * tmp) { next = tmp; }
-	~link() {
-	}
+	~link() { next = 0; }
 };
 
